@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite allow-return-values="true" name="MMS_BATCH">
+
+
+<!--	 //**********TEST CASE NUMBER: 1 :- CORP LIC TEST CASES***********//  -->
+	
+	 
+	<test name="MMS_Report_Suite" enabled="true" preserve-order="true">
+	
+		<classes>
+		<class name="com.MMS_Automation_smoke.Onboarding_smoke"/>
+		<class name="com.MMS_Automation_smoke.Ticketing_smoke"/>
+	
+		</classes>
+		
+		<!--
+		<class name="com.MMS_Automation_smoke.Onboarding_smoke"/>
+		<class name="com.MMS_Automation_smoke.Ticketing_smoke"/>
+		<class name="com.MMS_Automation_smoke.ReportValidations_smoke"/>
+		
+		 -->
+		
+	</test>
+
+
+	
+	
+	
+	
+	</suite>
+
+	<!--
+	
+	<test name="GPParsikAddonCard" enabled="true" preserve-order="true">
+	
+		<classes>
+			
+			<class name="com.Apply.smoke.GPPARSIKBank.GPPARSIKBankDetailsQ1AddOnCard" />
+			<class name="com.Apply.smoke.GPPARSIKBank.GPPARSIKBankDetailsQ2AddonCard" />
+			<class name="com.Apply.smoke.GPPARSIKBank.GPPARSIKBankDetailsAPRM_CreditManagerAddOn" />
+			<class name="com.Apply.smoke.GPPARSIKBank.GPPB_Checker_DetailsAddOn" />
+			<class name="com.Apply.smoke.GPPARSIKBank.GPPARSIKBankDetailsAPRAddOn" />
+			<class name="com.Apply.smoke.GPPARSIKBank.GPPARSIKBankDetailsMXPAddOn" />
+			<class name="com.Apply.smoke.GPPARSIKBank.GPPARSIKBankMagnusfileGenerationDetailsAddOn" />
+			
+			
+		</classes>
+	</test>
+
+
+	  <test name="GPParsik" enabled="true" preserve-order="true">
+	<classes>
+			<class name="com.Apply.smoke.GPPARSIKBank.GPPARSIKBankDetailsQ1" />
+			<class name="com.Apply.smoke.GPPARSIKBank.GPPARSIKBankDetailsQ2" />
+			<class name="com.Apply.smoke.GPPARSIKBank.GPPARSIKBankDetailsAPRM_CreditManager" />
+			<class name="com.Apply.smoke.GPPARSIKBank.GPPB_Checker_Details" />
+			<class name="com.Apply.smoke.GPPARSIKBank.GPPARSIKBankDetailsAPR" />
+			<class name="com.Apply.smoke.GPPARSIKBank.GPPARSIKBankDetailsMXP" />
+			<class name="com.Apply.smoke.GPPARSIKBank.GPPARSIKBankMagnusfileGenerationDetails" />
+			
+		</classes>
+	
+	</test>  
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<test name="Corporation Bank1" enabled="true" preserve-order="true">
+		<classes>
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q1" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q2" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_ECK" />
+		</classes>
+	</test>
+	<test name="Corporation Bank2" enabled="true" preserve-order="true">
+		<classes>
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q1" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q2" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_ECK" />
+		</classes>
+	</test>
+	<test name="Corporation Bank3" enabled="true" preserve-order="true">
+		<classes>
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q1" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q2" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_ECK" />
+		</classes>
+	</test>
+	<test name="Corporation Bank4" enabled="true" preserve-order="true">
+		<classes>
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q1" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q2" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_ECK" />
+		</classes>
+	</test>
+	<test name="Corporation Bank5" enabled="true" preserve-order="true">
+		<classes>
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q1" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q2" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_ECK" />
+		</classes>
+	</test>
+	
+	<test name="Corporation Bank6" enabled="true" preserve-order="true">
+		<classes>
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q1" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q2" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_ECK" />
+		</classes>
+	</test>
+	<test name="Corporation Bank7" enabled="true" preserve-order="true">
+		<classes>
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q1" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q2" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_ECK" />
+		</classes>
+	</test>
+	<test name="Corporation Bank8" enabled="true" preserve-order="true">
+		<classes>
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q1" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q2" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_ECK" />
+		</classes>
+	</test>
+	<test name="Corporation Bank9" enabled="true" preserve-order="true">
+		<classes>
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q1" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q2" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_ECK" />
+		</classes>
+	</test>
+	<test name="Corporation Bank10" enabled="true" preserve-order="true">
+		<classes>
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q1" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q2" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_ECK" />
+		</classes>
+	</test>
+	<test name="Corporation Bank11" enabled="true" preserve-order="true">
+		<classes>
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q1" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q2" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_ECK" />
+		</classes>
+	</test>
+	<test name="Corporation Bank12" enabled="true" preserve-order="true">
+		<classes>
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q1" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q2" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_ECK" />
+		</classes>
+	</test>
+	<test name="Corporation Bank13" enabled="true" preserve-order="true">
+		<classes>
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q1" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q2" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_ECK" />
+		</classes>
+	</test>
+	<test name="Corporation Bank14" enabled="true" preserve-order="true">
+		<classes>
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q1" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q2" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_ECK" />
+		</classes>
+	</test>
+	<test name="Corporation Bank15" enabled="true" preserve-order="true">
+		<classes>
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q1" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q2" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_ECK" />
+		</classes>
+	</test>
+	
+	<test name="Corporation Bank16" enabled="true" preserve-order="true">
+		<classes>
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q1" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q2" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_ECK" />
+		</classes>
+	</test>
+	<test name="Corporation Bank17" enabled="true" preserve-order="true">
+		<classes>
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q1" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q2" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_ECK" />
+		</classes>
+	</test>
+	<test name="Corporation Bank18" enabled="true" preserve-order="true">
+		<classes>
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q1" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q2" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_ECK" />
+		</classes>
+	</test>
+	<test name="Corporation Bank19" enabled="true" preserve-order="true">
+		<classes>
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q1" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q2" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_ECK" />
+		</classes>
+	</test>
+	<test name="Corporation Bank20" enabled="true" preserve-order="true">
+		<classes>
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q1" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q2" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_ECK" />
+		</classes>
+	</test>
+	<test name="Corporation Bank21" enabled="true" preserve-order="true">
+		<classes>
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q1" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q2" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_ECK" />
+		</classes>
+	</test>
+	<test name="Corporation Bank22" enabled="true" preserve-order="true">
+		<classes>
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q1" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q2" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_ECK" />
+		</classes>
+	</test>
+	<test name="Corporation Bank23" enabled="true" preserve-order="true">
+		<classes>
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q1" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q2" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_ECK" />
+		</classes>
+	</test>
+	<test name="Corporation Bank24" enabled="true" preserve-order="true">
+		<classes>
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q1" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q2" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_ECK" />
+		</classes>
+	</test>
+	<test name="Corporation Bank25" enabled="true" preserve-order="true">
+		<classes>
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q1" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q2" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_ECK" />
+		</classes>
+	</test>
+	
+	<test name="Corporation Bank26" enabled="true" preserve-order="true">
+		<classes>
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q1" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q2" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_ECK" />
+		</classes>
+	</test>
+	<test name="Corporation Bank27" enabled="true" preserve-order="true">
+		<classes>
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q1" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q2" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_ECK" />
+		</classes>
+	</test>
+	<test name="Corporation Bank28" enabled="true" preserve-order="true">
+		<classes>
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q1" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q2" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_ECK" />
+		</classes>
+	</test>
+	<test name="Corporation Bank29" enabled="true" preserve-order="true">
+		<classes>
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q1" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q2" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_ECK" />
+		</classes>
+	</test>
+	<test name="Corporation Bank30" enabled="true" preserve-order="true">
+		<classes>
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q1" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q2" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_ECK" />
+		</classes>
+	</test>
+	
+	
+	<test name="Corporation Bank31" enabled="true" preserve-order="true">
+		<classes>
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q1" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q2" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_ECK" />
+		</classes>
+	</test>
+	
+	<test name="Corporation Bank32" enabled="true" preserve-order="true">
+		<classes>
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q1" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q2" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_ECK" />
+		</classes>
+	</test>
+	<test name="Corporation Bank33" enabled="true" preserve-order="true">
+		<classes>
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q1" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q2" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_ECK" />
+		</classes>
+	</test>
+	
+	<test name="Corporation Bank34" enabled="true" preserve-order="true">
+		<classes>
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q1" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q2" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_ECK" />
+		</classes>
+	</test>
+	
+	<test name="Corporation Bank35" enabled="true" preserve-order="true">
+		<classes>
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q1" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q2" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_ECK" />
+		</classes>
+	</test>
+	
+	<test name="Corporation Bank36" enabled="true" preserve-order="true">
+		<classes>
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q1" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q2" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_ECK" />
+		</classes>
+	</test>
+	
+	<test name="Corporation Bank37" enabled="true" preserve-order="true">
+		<classes>
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q1" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q2" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_ECK" />
+		</classes>
+	</test>
+	<test name="Corporation Bank38" enabled="true" preserve-order="true">
+		<classes>
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q1" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q2" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_ECK" />
+		</classes>
+	</test>
+	<test name="Corporation Bank39" enabled="true" preserve-order="true">
+		<classes>
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q1" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q2" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_ECK" />
+		</classes>
+	</test>
+	
+	<test name="Corporation Bank40" enabled="true" preserve-order="true">
+		<classes>
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q1" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q2" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_ECK" />
+		</classes>
+	</test>
+	<test name="Corporation Bank41" enabled="true" preserve-order="true">
+		<classes>
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q1" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q2" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_ECK" />
+		</classes>
+	</test>
+	
+	<test name="Corporation Bank42" enabled="true" preserve-order="true">
+		<classes>
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q1" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q2" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_ECK" />
+		</classes>
+	</test>
+	
+	<test name="Corporation Bank43" enabled="true" preserve-order="true">
+		<classes>
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q1" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q2" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_ECK" />
+		</classes>
+	</test>
+	<test name="Corporation Bank44" enabled="true" preserve-order="true">
+		<classes>
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q1" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q2" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_ECK" />
+		</classes>
+	</test>
+	
+	<test name="Corporation Bank45" enabled="true" preserve-order="true">
+		<classes>
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q1" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q2" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_ECK" />
+		</classes>
+	</test>
+	
+	<test name="Corporation Bank46" enabled="true" preserve-order="true">
+		<classes>
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q1" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q2" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_ECK" />
+		</classes>
+	</test>
+	
+	<test name="Corporation Bank47" enabled="true" preserve-order="true">
+		<classes>
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q1" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q2" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_ECK" />
+		</classes>
+	</test>
+	<test name="Corporation Bank48" enabled="true" preserve-order="true">
+		<classes>
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q1" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q2" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_ECK" />
+		</classes>
+	</test>
+	
+	<test name="Corporation Bank49" enabled="true" preserve-order="true">
+		<classes>
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q1" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q2" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_ECK" />
+		</classes>
+	</test>
+	<test name="Corporation Bank50" enabled="true" preserve-order="true">
+		<classes>
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q1" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_Q2" />
+			<class name="com.Apply.workFlows.CorporationBank.CorporationBank_ECK" />
+		</classes>
+	</test> -->
+	
+
+ 
+  

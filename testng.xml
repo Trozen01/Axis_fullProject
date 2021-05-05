@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" > 
+  <test thread-count="5" name="AXIS_Automation_Suite"  preserve-order="true">
+    <classes>
+    	
+      	<class name="com.AXIS.smoke.MerchantOnboarding"/>
+      >
+      
+      	
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+<!-- 
+		
+     	<class name="com.BFL.smoke.CardActivation"/>
+      	<class name="com.BFL.smoke.AccountBlock_UnBlock"/>
+       	<class name="com.BFL.smoke.TemporaryLimitChange"/>
+       	<class name="com.BFL.smoke.PersonalDetailsChange_Checker"/>
+      	<class name="com.BFL.smoke.CustomerBlock_UnBlock"/>
+      	<class name="com.BFL.smoke.CustomerLimitEnhancement"/>
+      	<class name="com.BFL.smoke.Vip_NonVipChange_Customer"/>
+      	<class name="com.BFL.smoke.Vip_NonVipChange_Account"/>
+      	<class name="com.BFL.smoke.AvailableBalanceChange"/>
+      	<class name="com.BFL.API_smoke.CustomerOnboarding"/>
+      	<class name="com.BFL.API_smoke.MAUTH_Transaction"/>
+-->

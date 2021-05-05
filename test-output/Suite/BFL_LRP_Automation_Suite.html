@@ -1,0 +1,134 @@
+<html>
+<head>
+<title>TestNG:  BFL_LRP_Automation_Suite</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>BFL_LRP_Automation_Suite</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>11/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Mar 05 09:52:07 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>989 seconds (989124 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.BFL.smoke.AccountBlock_UnBlock.AccountBlock_UnBlock_Test()'><b>AccountBlock_UnBlock_Test</b><br>Test class: com.BFL.smoke.AccountBlock_UnBlock<br>Parameters: {CustomerID=3515, TestCoverage=BFL Account Block, Account Unblock, colStartRowNum=7, BlockCategory=S~Customer Services, LastdataRow=Yes, ChannelType=Outbound, DataRowNum=9, UnblockReason=Customer has received the card, FirstdataRow=Yes, Usertype=Admin, AccountId=3591, CardNumber=2030402020090920, BlockCode=TMAS02~CS Block10}</td>
+<td></td>
+<td>78</td>
+<td>com.BFL.smoke.AccountBlock_UnBlock@11fc564b</td></tr>
+<tr>
+<td title='com.BFL.smoke.AvailableBalanceChange.AvailableBalanceChange_Test()'><b>AvailableBalanceChange_Test</b><br>Test class: com.BFL.smoke.AvailableBalanceChange<br>Parameters: {CustomerID=70348923, TestCoverage=Available balance change, colStartRowNum=24, BlockCategory=S~Customer Services, LastdataRow=Yes, ChannelType=Outbound, DataRowNum=26, UnblockReason=Customer has received the card, FirstdataRow=Yes, Usertype=Admin, AccountId=00170348923, CardNumber=2030401553482274, BlockCode=TMUS01~Annual Fee Opt out}</td>
+<td></td>
+<td>65</td>
+<td>com.BFL.smoke.AvailableBalanceChange@3f56875e</td></tr>
+<tr>
+<td title='com.BFL.smoke.CardActivation.CardBlock_UnBlock_Test()'><b>CardBlock_UnBlock_Test</b><br>Test class: com.BFL.smoke.CardActivation<br>Parameters: {CustomerID=3515, TestCoverage=BFL Card Block, Card UnBlock Test Scenario, colStartRowNum=2, BlockCategory=S~Customer Services, LastdataRow=Yes, ChannelType=Outbound, DataRowNum=4, UnblockReason=Customer has received the card, FirstdataRow=Yes, Usertype=Admin, AccountId=3591, CardNumber=2030402020090920, BlockCode=TMCS02~CS Block12}</td>
+<td></td>
+<td>75</td>
+<td>com.BFL.smoke.CardActivation@17a7f733</td></tr>
+<tr>
+<td title='com.BFL.smoke.CustomerBlock_UnBlock.CustomerBlock_UnBlock_Test()'><b>CustomerBlock_UnBlock_Test</b><br>Test class: com.BFL.smoke.CustomerBlock_UnBlock<br>Parameters: {CustomerID=3515, TestCoverage=CustomerBlock_UnBlock_Test, colStartRowNum=11, BlockCategory=S~Customer Services, LastdataRow=Yes, ChannelType=Outbound, DataRowNum=13, UnblockReason=Customer has received the card, FirstdataRow=Yes, Usertype=Admin, AccountId=3591, CardNumber=2030402020090920, BlockCode=TMUS01~Annual Fee Opt out}</td>
+<td></td>
+<td>70</td>
+<td>com.BFL.smoke.CustomerBlock_UnBlock@7c1e2a9e</td></tr>
+<tr>
+<td title='com.BFL.smoke.CustomerLimitEnhancement.CustomerLimitEnhancement_Test()'><b>CustomerLimitEnhancement_Test</b><br>Test class: com.BFL.smoke.CustomerLimitEnhancement<br>Parameters: {CustomerID=3515, TestCoverage=BFL Customer Limit Enhancement, Account Limit Enhancement, colStartRowNum=15, BlockCategory=S~Customer Services, LastdataRow=Yes, ChannelType=Outbound, DataRowNum=17, UnblockReason=Customer has received the card, FirstdataRow=Yes, Usertype=Admin, AccountId=3591, CardNumber=2030402020090920, BlockCode=TMUS01~Annual Fee Opt out}</td>
+<td></td>
+<td>77</td>
+<td>com.BFL.smoke.CustomerLimitEnhancement@fa36558</td></tr>
+<tr>
+<td title='com.BFL.API_smoke.CustomerOnboarding.CustomerOnboardingAPI_Test()'><b>CustomerOnboardingAPI_Test</b><br>Test class: com.BFL.API_smoke.CustomerOnboarding<br>Parameters: {TestCoverage=API Testing: Customer OnBoarding, EncryptionType=AES, colStartRowNum=40, LastdataRow=Yes, DataRowNum=42, FirstdataRow=Yes, Usertype=Admin, PostURL=https://10.10.11.226/wlblfcustonboard/WLBFLCUSTONBOARD.svc/EXPRequest, TransactionType=POSRV, WithoutEncryption=No, RequestType=CustomerOnboarding}</td>
+<td></td>
+<td>117</td>
+<td>com.BFL.API_smoke.CustomerOnboarding@2b4bac49</td></tr>
+<tr>
+<td title='com.BFL.API_smoke.MAUTH_Transaction.MAUTH_Transaction_Test()'><b>MAUTH_Transaction_Test</b><br>Test class: com.BFL.API_smoke.MAUTH_Transaction<br>Parameters: {TestCoverage=API Testing: MAUTH_Transaction _&_Cancellation, EncryptionType=AES, colStartRowNum=44, Customer_Id=, LastdataRow=Yes, DataRowNum=46, FirstdataRow=Yes, Usertype=Admin, PostURL=https://bfltest.in.worldline.com/WLBFLInterfaceMauth/WLBFLInterfaceMauth.svc/MauthRequest, TransactionType=POSRV, WithoutEncryption=No, RequestType=MAUTHTransaction}</td>
+<td></td>
+<td>87</td>
+<td>com.BFL.API_smoke.MAUTH_Transaction@fd07cbb</td></tr>
+<tr>
+<td title='com.BFL.smoke.PersonalDetailsChange_Checker.PersonalDetailsChange_Checker_Test()'><b>PersonalDetailsChange_Checker_Test</b><br>Test class: com.BFL.smoke.PersonalDetailsChange_Checker<br>Parameters: {CustomerID=3515, TestCoverage=Personal details change/checker, colStartRowNum=19, BlockCategory=S~Customer Services, LastdataRow=Yes, ChannelType=Outbound, DataRowNum=21, UnblockReason=Customer has received the card, FirstdataRow=Yes, Usertype=Admin, AccountId=3591, CardNumber=2030402020090920, BlockCode=TMUS01~Annual Fee Opt out}</td>
+<td></td>
+<td>71</td>
+<td>com.BFL.smoke.PersonalDetailsChange_Checker@6236eb5f</td></tr>
+<tr>
+<td title='com.BFL.smoke.TemporaryLimitChange.TemporaryLimitChange_Test()'><b>TemporaryLimitChange_Test</b><br>Test class: com.BFL.smoke.TemporaryLimitChange<br>Parameters: {CustomerID=70348923, TestCoverage=Temporary Limit change, colStartRowNum=28, BlockCategory=S~Customer Services, LastdataRow=Yes, ChannelType=Outbound, DataRowNum=30, UnblockReason=Customer has received the card, FirstdataRow=Yes, Usertype=Admin, AccountId=00170348923, CardNumber=2030401553482274, BlockCode=TMUS01~Annual Fee Opt out}</td>
+<td></td>
+<td>65</td>
+<td>com.BFL.smoke.TemporaryLimitChange@394a2528</td></tr>
+<tr>
+<td title='com.BFL.smoke.Vip_NonVipChange_Account.Vip_NonVipChange_Account_Test()'><b>Vip_NonVipChange_Account_Test</b><br>Test class: com.BFL.smoke.Vip_NonVipChange_Account<br>Parameters: {CustomerID=3515, TestCoverage=Account Level: VIP NONVIP SMT update request, colStartRowNum=32, BlockCategory=S~Customer Services, LastdataRow=Yes, ChannelType=Outbound, DataRowNum=34, UnblockReason=Customer has received the card, FirstdataRow=Yes, Usertype=Admin, AccountId=3591, CardNumber=2030402020090920, BlockCode=TMUS01~Annual Fee Opt out}</td>
+<td></td>
+<td>131</td>
+<td>com.BFL.smoke.Vip_NonVipChange_Account@32910148</td></tr>
+<tr>
+<td title='com.BFL.smoke.Vip_NonVipChange_Customer.Vip_NonVipChange_Customer_Test()'><b>Vip_NonVipChange_Customer_Test</b><br>Test class: com.BFL.smoke.Vip_NonVipChange_Customer<br>Parameters: {CustomerID=3515, TestCoverage=Customer Level: VIP NONVIP SMT update request, colStartRowNum=36, BlockCategory=S~Customer Services, LastdataRow=Yes, ChannelType=Outbound, DataRowNum=38, UnblockReason=Customer has received the card, FirstdataRow=Yes, Usertype=Admin, AccountId=3591, CardNumber=2030402020090920, BlockCode=TMUS01~Annual Fee Opt out}</td>
+<td></td>
+<td>138</td>
+<td>com.BFL.smoke.Vip_NonVipChange_Customer@672872e1</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="BFL_LRP_Automation_Suite(failed)">
+    <classes>
+      <class name="com.BFL.smoke.CustomerBlock_UnBlock">
+        <methods>
+          <include name="reportHeader"/>
+          <include name="CustomerBlock_UnBlock_Test" invocation-numbers="0"/>
+          <include name="setupSuite"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.BFL.smoke.CustomerBlock_UnBlock -->
+    </classes>
+  </test> <!-- BFL_LRP_Automation_Suite(failed) -->
+</suite> <!-- Failed suite [Suite] -->
